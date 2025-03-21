@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <style>body{background-color: blueviolet;} </style>
+</head>
+<body> 
+    <h1>Código-fonte/Pré formatação </h1>
+    <h2>O comando document.getElementById(test) é escrito em linguagem JavaScript. </h2> "sem monoespaçamento"
+    <h2>O comando <code>document.getElementById(test)</code> é escrito em linguagem JavaScript. </h2> "com monoespaçamento" 
+    <p> <code>
+        num= int(input(digite um número))
+        iff num % 2 == 0:
+        print(f'O número {num} é PAR') I else:
+        print(f'O número {num} é IMPAR') I print('Fim do programa')
+    </code>
+    </p>
+    <p>O comando pre com a tag code selecionada e envelopada ordena o código </p>
+
+    <pre>
+        <code>
+            num= int(input(digite um número))
+            iff num % 2 == 0:
+            print(f'O número {num} é PAR') I else:
+            print(f'O número {num} é IMPAR') I print('Fim do programa')
+        </code>
+    </pre>
+    <p>Para retirar o espaçamento do início selecione conteúdo do code sem a tag,shift+tecla tab do teclado</p>
+    <p><pre>
+        <code>
+num= int(input(digite um número))
+iff num % 2 == 0:
+print(f'O número {num} é PAR') I else:
+print(f'O número {num} é IMPAR') I print('Fim do programa')
+        </code>
+    </pre></p>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p><!--envelopa cpm 'q' para ficar entre aspas o texto que quizer citar simples, está com semântica-->
+    <h2>Citações completas</h2><!--existe o google livros em: https://books.google.com-->
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos</p>
+<blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_All_In_One_For_Dummie/-LdlRI0fT_UC?hl=pt-PT&gbpv=1&dq=html&pg=PA123&printsec=frontcover">After you know where to look, the problem becomes a bit easier to spot. I got sloppy and be started the h2 tag before I finished h1. In many cases, one tag can be completely embedded inside another, but you cant't have tag delinitions overlap as I've done here. The h1 has to close before l can start the h2 tag</blockquote>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="HyperText Markup Languagem">HTML</abbr><!--seleciona a abreviatura-envelopa HTML com abbr--> e <abbr title="Cascading Style Sheets">CSS</abbr>.<!--seleciona a abreviatura-envelopa CSS com abbr--> Estou amando! </p>
+<h2>Texto invertido</h2>
+<p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML </bdo></p>
+
+
+</body>
+</html>
