@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: 'Android';
-    src: url('fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format ('opentype');
     font-weight: normal;
 }
 /*fonte mãe*/
@@ -26,7 +26,7 @@
 }
 
 body {
-    font-family: var(--fonte-padrao);
+    font-family: var (--fonte-padrao);
     background-color: #c5ebd6;
 
     text-align: left;
@@ -38,7 +38,7 @@ a.externo:after {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor3), var (--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -47,7 +47,7 @@ header {
 header> h1 {
 
     color: white;
-    font-family: var(--font-destaque);
+    font-family: var (--font-destaque);
     font-size: 3em;  
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0.267);
@@ -55,7 +55,7 @@ header> h1 {
 }
 
 header > p {
-    font-family: var(--fonte-padrao);
+    font-family: var (--fonte-padrao);
     font-size: 1.2em;
     font-weight: normal;
     color: white;
@@ -67,7 +67,7 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor5);
+    background-color: var (--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0.363);
 }
@@ -82,8 +82,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5);
+    background-color: var (--cor3);
+    color: var (--cor5);
 }
 
 
@@ -101,17 +101,17 @@ main {
 
 main h1 {
     color: var(--cor4);
-    font-family: var(--font-android);
+    font-family: var (--font-android);
     font-weight: normal;
     font-size: 1.8em;
 }
 
 main h2 {
-    font-family: var(--font-android); 
-    color: var(--cor4);
+    font-family: var (--font-android); 
+    color: var (--cor4);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var (--cor1), transparent);
     text-indent: 8px;
 }
 
@@ -124,21 +124,21 @@ main p {
 }
 
 main strong {
-    color: var(--cor4);
+    color: var (--cor4);
     font-weight: bold;
 }
 
 main a {
     text-decoration: none;
     font-weight: bold/*negrito bem escuro*/;
-    color: var(--cor5);
-    background-color: var(--cor1);
+    color: var (--cor5);
+    background-color: var (--cor1);
     padding: 2px 6px;
 }
 
 main a:hover {/*caracteristicas de quando passa o mouse em cima do link*/
     text-decoration: underline;
-    color: var(--cor4);
+    color: var (--cor4);
 }
 
 main img {
@@ -152,7 +152,7 @@ main img.pequena {
 }
 
 div.video {
-    background-color: var(--cor5);
+    background-color: var (--cor5);
     margin-bottom: 30px;
     margin: 0px -20px 30px -20px; /*o menos vinte é referente a colar o fundo verde nas laterais */
     padding: 20px;
@@ -177,7 +177,7 @@ aside {
 }
 
 aside h3 {
-    background-color: var(--cor4);
+    background-color: var (--cor4);
     color: white;
     padding: 10px;
     margin: -10px -10px 0px -10px;
@@ -192,7 +192,7 @@ aside ul {
 }
 
 footer {
-    background-color: var(--cor5);
+    background-color: var (--cor5);
     color:  white;
     text-align: center;
     font-size: 0.8em;
